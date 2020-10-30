@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+*{
+   
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 650px;
+    background-size: cover; 
+     background-image: url('../img/login4.jpg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+   
+}
+.image {
+    position: absolute;
+    bottom: 0;
+}
+.image img{
+    width: 550px;
+    height: 550px;
+
+}
+.container{
+    width: 100%;
+    display: flex;
+    background-image: url(../img/kindpng_1561276.png);
+    background-size: 700px 620px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 100%;
+}
+.para{
+    margin: 20px 30px ;
+    margin-right: 150px;
+    padding: 50px 20px;
+    width: 45%;
+    text-align: center;
+}
+.para h1{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 50px;
+    border-bottom: 2px solid black;
+    color: rgb(22, 22, 23);
+}
+
+.login {
+    width: 320px;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-top: 60px;
+    box-sizing: border-box;
+    padding: 70px 30px;
+    background-color: rgb(255, 255, 255,0.5);
+    box-shadow: -1px 1px 20px 3px blueviolet;
+    border-radius: 10px;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    /* left: calc(50% + 250px); */
+    margin-left: 80px;
+    
+}
+
+/* h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+} */
+
+.error  {
+    color: red;
+}
+
+.login p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(55, 55, 55);
+    font-weight: 700;
+   
+}
+.login input[type="text"]:focus,
+input[type="password"]:focus{
+    background-color: transparent;
+}
+
+.login input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #2a42ff;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.login input[type="submit"]:hover {
+    cursor: pointer;
+    background: #001c8a;
+   
+    
+}
+
+.login a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.login a:hover {
+    color: #ff0000;
+}
+

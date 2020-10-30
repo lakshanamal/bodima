@@ -1,0 +1,324 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 650px;
+    background-size: cover; 
+     background-image: url('../img/login4.jpg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+   
+}
+.image {
+    position: absolute;
+    bottom: 0;
+}
+.image img{
+    width: 600px;
+    height: 600px;
+}
+
+.error {
+    padding-left: 20px;
+    color: rgb(255, 0, 0);
+    text-align: left;
+}
+body {
+    
+    color: rgb(255, 255, 255);
+    height: 700px;
+
+}
+.container{
+    width: 100%;
+    display: flex;
+    background-image: url(../img/kindpng_1561276.png);
+    background-size: 700px 620px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 100%;
+}
+
+.forget {
+    border: none;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 30px 30px;
+    background-color: rgb(255, 255, 255,0.5);
+    box-shadow: -1px 1px 20px 3px blueviolet;
+    border-radius: 10px;
+}
+.para{
+    padding: 20px ;
+    /* background-color: rgba(157, 196, 255, 0.3) ; */
+    padding: 50px 20px;
+    width: 45%;
+    text-align: center;
+}
+ .head h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+   
+}
+.para h1{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 48px;
+    border-bottom: 2px solid black;
+    color: rgb(65, 65, 65);
+}
+
+.discription {
+    padding-top: 20px;
+    /* padding: 20px; */
+    color: rgb(40, 40, 40);
+    margin: 0 5px;
+    font-size: 16px;
+    text-align: left;
+   
+}
+
+.feild input {
+    width: 95%;
+    margin: 7px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.feild label {
+    margin-top: 30px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    display: flex;
+    color: black;
+}
+
+.feild input[type=submit] {
+    font-family: 'Poppins', sans-serif;
+    width: 65%;
+    padding: 8px;
+    background: none;
+    transition: 0.5s;
+    color: white;
+    border: 1px solid #6600ff;
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #4b00bb;
+}
+
+.feild input[type=submit]:hover {
+    background-color: #6600ff;
+}
+
+.feild input[type=text] {
+    border: none;
+    padding: 10px;
+  
+    background-position: 10px;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    /* padding-left: 50px; */
+    color: rgb(40, 40, 40);
+    border-radius: 5px;
+}
+
+.feild input[type=text]:active,
+.feild input[type=text]:focus {
+    outline: none;
+    border: none;
+    background-color: #d3d3d3;
+}
+
+.feild input[placeholder] {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.reset {
+    margin: 10px;
+    width: 200px;
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(47, 47, 47), rgb(31, 31, 31));
+}
+
+.reset a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.verify-wrapper h1 {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+    border-bottom: 2px solid white;
+}
+
+.resend a {
+    text-decoration: none;
+    color: rgb(9, 82, 251);
+    font-weight: bold;
+}
+
+.resend a:hover {
+    color: rgb(3, 107, 167);
+}
+
+.resend {
+    text-align: left;
+    margin: 20px;
+}
+
+.discription-01 {
+    margin: 10px;
+    padding: 20px 10px;
+    color: rgb(78, 78, 78);
+    font-size: 16px;
+    text-align: left;
+    background-color: rgb(141, 255, 191);
+}
+
+
+/* expired page*/
+
+.discription-ex h4 {
+    margin: 10px;
+    padding: 20px 10px 100px 10px;
+    color: rgb(78, 78, 78);
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    background-color: rgb(236, 127, 127);
+}
+
+.btn-1 div {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.btn-1 .ex-1 {
+    margin: 10px;
+    width: 100px;
+    margin: 5px auto;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.btn-1 .ex-1 a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.btn-1 .ex-2 {
+    margin: 10px;
+    width: 200px;
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+
+.btn-1 .ex-2 a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.contrain-wrapper-ex {
+    border: none;
+    text-align: center;
+    width: 500px;
+    margin: 50px auto;
+    padding: 0 0 20px 0;
+    background-image: url('../img/logo1.svg');
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: 95px 50px;
+    background-position: top;
+    padding-top: 45px;
+    border-radius: 10px;
+}
+
+
+/*new password*/
+
+.feild-pa input {
+    width: 95%;
+    margin: 7px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.feild-pa label {
+    padding-left: 15px ;
+    font-size: 18px;
+    font-weight: 900;
+    display: flex;
+    color: black;
+}
+
+.feild-pa input[type=password] {
+    border: none;
+    padding: 5px;
+    background-image: url('../icon/password.svg');
+    background-color: white;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    border-radius: 5px;
+    padding-left: 45px;
+    color: white;
+}
+
+.feild-pa input[type=submit] {
+    padding: 10px;
+    color: white;
+    background-color:  #228be6;
+    border: none;
+    box-shadow:inset  0 1px 0 rgba(255,255,255,0.0125), 0 1px 1px rgba(0,0,0,0.05);
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.feild-pa input[type=submit]:hover {
+    background-color: rgb(85, 85, 255);
+}
+
+.feild-pa input[type=password]:active,
+.feild-pa input[type=password]:focus {
+    background-color: rgb(231, 253, 255);
+    border: none;
+    outline: none;
+    color: black;
+}
+.new{
+    border: none;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 30px 30px;
+    background-color: rgb(255, 255, 255,0.5);
+    box-shadow: -1px 1px 20px 3px blueviolet;
+    border-radius: 10px;
+}

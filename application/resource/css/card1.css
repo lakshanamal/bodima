@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cart-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(238, 224, 31);
+  }
+  .card img{
+      height: 200px;
+      width: 100%;
+  }
+  .cart-icon{
+    padding: 10px;
+     width: 120px;
+  }
+
+  .cart-icon a{
+    color: white;
+    text-decoration: none;
+  }
+  .count{
+    background-color: white;
+    color: rgb(182, 182, 6);
+    text-align: center;
+    padding: 0 12px 0 12px;
+    border-radius: 3rem;
+}
+
+  .cart-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color:#3A3E3E; 
+    color: white;
+    align-items: center;
+  }
+ 
+  
+  .cart-icon img{
+      height: 30px;
+      width: 30px;
+    
+  }
+
+  .cartbox{
+    padding:20px;
+    margin-bottom: 30px;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  .card input{
+      margin-bottom: 15px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  
+
+  .grid-item{
+      display: grid;
+      grid-template-columns: 60% 40%;
+      min-height: 500px;
+      /* padding-top: 80px; */
+      margin: 30px;
+  }
+  
+  .mycart h5{
+      border-bottom: 1px solid gray;
+      font-size: 20px;
+      font-weight: lighter;
+      margin: 20px;
+  }
+
+
+
+  .item-wrap{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    background-color: white;
+  }
+  .cart-item{
+    display: flex;
+  }
+
+  .cart-item button{
+    margin-top: 20px;
+    padding: 0 10px 0 10px;
+   height: 40px;
+   font-size: 15px;
+   border: none;
+   border-radius: 3px;
+  }
+
+  .cart-item img{
+    height: 170px;
+    width: 200px;
+  }
+
+  .product-details{
+    padding: 15px;
+  }
+
+  .price-details{
+      height: 35%;
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      padding: 20px;
+      padding-bottom: 25px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+      background: white;
+  }
+  .total{
+    border-bottom: 1px solid gray;
+  }
+
+  .details{
+    padding-top: 10px;
+    height: 150px;
+  }
+
+  .details h5{
+    padding-bottom: 10px;
+  }
+
+  .details h4{
+    border-top: 1px solid gray;
+    padding-top: 10px;
+  }
+
+  .left-item{
+      padding-left: 100px;
+      color: orangered;
+  }
+  
+  .left-item1{
+    padding-left: 45px;
+    color: orangered;
+}
+.method{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-count{
+  display: flex;
+  width: 300px;
+}
+.item-count h4{
+  text-align: center;
+    margin-top: 20px;
+    padding-right: 24px;
+    padding-left: 20PX;
+    padding-top: 10px;
+    background-color: rgb(231, 228, 227);
+    height: 30px;
+}
+
+.btn4{
+  background-color: rgb(9, 180, 15);
+  width: 40px;
+}
+.btn2{
+  width: 100px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(250, 78, 35);
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.btn3{
+  padding:7px;
+  background-color: rgb(255, 30, 30);
+  color: white;
+  background-image: url(../img/credit-card-solid.svg);
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: 5px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-top: 10px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.btn5{
+  padding:7px;
+  background-color: rgb(1, 151, 56);
+  background-image: url(../img/money-bill-wave-solid.svg);
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: 5px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-top: 10px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.btn6{
+  padding:7px;
+  background-color: rgb(11, 60, 207);
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-top: 10px;
+  width: 250px;
+  cursor: pointer;
+}

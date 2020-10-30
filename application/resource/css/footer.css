@@ -1,0 +1,59 @@
+.footer{
+    bottom: 0;
+}
+.grid-container {
+    display: grid;
+    color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px ;
+    background-color: rgb(9, 9, 9);
+}
+.copyright {
+    background-color: black;
+}
+
+.copyright h2 {
+    text-align: center;
+    width: 100%;
+    color: rgb(171, 171, 171);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.grid-items{
+    padding: 10px;
+    color: gray;
+}
+.grid-items h3{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.grid-items ul li{
+    padding: 5px 0;
+    color: rgb(126, 126, 126);
+    font-size: 14px;
+}
+
+.follow{
+    display: flex;
+    background-color: rgb(6, 6, 6);
+    padding: 20px 30px;
+}
+
+.follow h2{
+    color: white;
+}
+.social{
+    margin: 0 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.social i{
+    color: rgb(171, 171, 171);
+    padding: 0 50px;
+}
+.social i:hover{
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,121 @@
+
+
+.header {
+    border-top: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#647eeadd, #3e97e4dd);
+}
+.logo h1{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #fcc709;
+}
+.nav-fixed{
+    padding: 0 20px 0 160px;
+    background-color: rgb(21, 21, 24)!important; 
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    transition: 0.9s;
+}
+.nav{
+    position: sticky;
+    padding: 0 20px 0 160px;
+    background-color: rgb(13, 13, 189);
+    transition: 0.9s;
+}
+
+
+
+.sign{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    transition: 0.5s all ease-in;
+    background-color:  rgb(255, 255, 255);
+}
+.sign a:hover{
+    color: rgb(74, 50, 227);
+}
+
+.sign a{
+    color: rgb(80, 163, 235);
+}
+
+
+.sign img{
+    height: 35px;
+    width: 20px;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.nav_item{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    transition: 0.3s all ease-in;
+    color: rgb(140, 137, 137);
+}
+.nav_item:hover{
+   background-color: rgb(27, 27, 147);
+}
+.nav_item a:hover{
+    color:white;
+}
+
+
+
+
+.nav_item a {
+    color: rgb(193, 193, 178);
+    text-decoration: none;
+    padding: 20px 25px;
+    transition: 0.3s ease-in;
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+}
+.user{
+    padding-right: 10px;
+    color: #fcc709;
+    padding-left: 5px;
+   /* color:  rgb(207, 187, 4) */
+}
+
+.profile{
+    color:#fcc709;
+}
+
+.notification{
+    color: rgb(80, 163, 235);
+    padding-right:15px ;
+}
+.notification:hover{
+    color: rgb(74, 50, 227);
+    cursor: pointer;
+}
+.drop{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}

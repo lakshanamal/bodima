@@ -1,0 +1,396 @@
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+.header_title{
+  display: table-cell;
+  padding-right:700px;
+  font-size: 25px
+}
+.user_block{
+  display: table-cell;
+  align-content: center;
+}
+.icon_block{
+  display: table-cell;
+}
+
+.prof_img{
+width:120px;
+height:120px;
+object-fit:cover;
+border-radius:50%;
+margin:0 auto 10px auto;
+display: block;
+}
+
+.button_signUp{
+  padding: 15px;
+}
+
+
+.user_signin_login button_signUp {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.user_signin_login button:hover {
+  background: #ccc;
+}
+.dropbtn {
+  background-color: #808080;
+  color: white;
+  padding: 5px 16px 5px 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.profile_dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.profile_dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.profile_dropdown-content a {
+  color: black;
+  padding: 7px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.profile_dropdown-content a:hover {background-color: #ddd;}
+
+.profile_dropdown:hover {display: block;}
+
+.profile_dropdown-content {display: block;}
+
+.profile_dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* ****** main menu  ************************************************/
+/*ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}*/
+/* ************ aside - right side container **********/
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/* ************ search container  *********************/
+.menu_bar .search-container {
+  float: right;
+}
+
+.menu_bar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #ccc;
+}
+/********************/
+.boardingPostTable{
+  /*background-color: #33b5e5;*/
+
+  cursor: pointer;
+}
+
+.foodPostTable{
+  /*background-color: #33b5e5;*/
+  background-color: #F4F4F4;
+  cursor: pointer;
+}
+
+.boardingPostTable:hover{
+  background-color: #F4F4F4;
+  cursor: pointer;
+}
+
+.foodPostTable:hover{
+  background-color: #d9d9d9;
+  cursor: pointer;
+}
+
+/*button request - in boarding page*/
+.request {
+  background-color: #008CBA; 
+  color: white; 
+  padding: 6px 10px;
+  border: 2px solid #008CBA;
+  font-size: 20px;
+}
+
+.request:hover {
+  background-color: #03bffc;
+  border: 2px solid #03bffc;
+  color:black ;
+}
+
+/*button "see the location" - in boarding page*/
+.location {
+  background-color: #008CBA; 
+  color: white; 
+  padding: 6px 10px;
+  border: 2px solid #008CBA;
+  font-size: 18px;
+  margin: 20px;
+}
+
+.location:hover {
+  background-color: #03bffc;
+  border: 2px solid #03bffc;
+  color:black ;
+}
+
+
+.T_Header{
+  display: table-cell;
+  font-weight: bold;
+  padding: 8px 50px;
+}
+
+.T_Define{
+  display: table-cell;
+  padding: 8px 30px;
+}
+
+.requestBlock{
+  padding:20px;
+}
+
+.requestInner{
+  padding:20px;
+}
+
+a.divtable{
+  color: #000;
+   text-decoration: none;
+   /* Makes sure the link doesn't get underlined */
+   z-index: 10;
+   /* raises anchor tag above everything else in div */
+   background-color: white;
+   /*workaround to make clickable in IE */
+   opacity: 0;
+   /*workaround to make clickable in IE */
+   filter: alpha(opacity=0);
+   /*workaround to make clickable in IE */
+}
+
+/*********** tables of boarding posts*********************/
+
+.imgLeft
+{
+    float: left;
+    width: 240px;
+    height: 150px;
+    margin: 0px 10px 10px 0;
+    padding: 10px;
+}
+
+.imgRight
+{
+    float: left;
+    width: 500px;
+    height: 250px;
+    margin: 0px 0 10px 10px;
+    padding: 10px;
+}
+.f_img_outbox{
+  padding:20px;
+}
+.boardingPostTable {
+    width: 70%;
+    height: 170px;
+    margin: 10px 10px 10px 30px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;/*no need*/
+}
+
+.boardingPostTable tr th, .boardingPostTable tr td{
+    text-align: left;
+    padding: 0px 5px 0 5px;
+}
+
+.boardingPostTable img{
+    padding:0px 10px 10px 10px;
+    height: 150px;
+    width: 150px;
+
+}
+
+.foodPostTable {
+    width: 80%;
+    height: 170px;
+    margin: 10px 10px 10px 0;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;/*no need*/
+}
+
+.foodPostTable tr th, .foodPostTable tr td{
+    text-align: left;
+    padding: 0px 5px 0 5px;
+}
+
+.foodPostTable img{
+    width:170px;
+    height:170px;
+    object-fit:cover;
+    border-radius:5%;
+    margin:0 auto 1px auto;
+    display: block;
+}
+
+/*********** for mobile phones/tablet/desktop - scale ***********************/
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+.search{
+  background-color: rgb(67, 64, 64);
+  padding: 15px;
+}
+.search select{
+  padding: 5px 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size:16px ;
+}
+.search input{
+  padding: 5px 40px;
+  border: none;
+  outline: none;
+}
+.search-item h2{
+  color: white;
+}
+option{
+  font-size: 16px;
+}
+
+.search-item{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search input[type="submit"]{
+  font-size: 16px;
+  background-color: #379683;
+  color: white;
+  transition: 0.5s;
+}
+
+.search input[type="submit"]:hover{
+  background-color:  #379;
+  color: wheat;
+  cursor: pointer;
+}
