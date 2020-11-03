@@ -115,3 +115,49 @@ a{
     mail($email,$subject,$message,$headers);
      }
 ?>
+
+<?php 
+ function blockMail($conditions,$email)
+ {
+     
+    $subject="Blocked your account";
+    $headers  = 'MIME-Version: 1.0' . "\r\n";
+    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+    $from="Bodima";
+// Create email headers
+    $headers .= 'From: '.$from."\r\n".
+    'Reply-To: '.$from."\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+ 
+    $message='
+    <html >
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reset your password</title>
+    </head>
+    <body>
+   
+            <h1>Block your Account </h1>
+            <h4>Hey there!</h4>
+                <h5>your bodima account has been blocked for the following  reason.</h5>
+                <p> 
+                <ul>
+                '.$conditions['con1'].'<br>
+                '.$conditions['con2'].'<br>
+                '.$conditions['con3'].'<br>
+                '.$conditions['con4'].'<br>
+                '.$conditions['con5'].'<br>
+                '.$conditions['con6'].'<br>
+                </ul>   
+                </p>
+    <h3>We restric certain content and actions to protect our community. Tell us if you think we made a mistake</h3>
+    </body>
+    </html>';
+
+    mail($email,$subject,$message,$headers);
+                         
+ }
+
+ 
+?>
